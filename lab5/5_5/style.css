@@ -1,0 +1,18 @@
+#left {
+    background: #ccf;
+    width: 200px;
+}
+
+#right {
+    background: #fcc;
+    width: 200px;
+}
+
+#center {
+    background: #cfc;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}

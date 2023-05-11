@@ -1,0 +1,26 @@
+#left {
+    background: #ccf;
+    width: 200px;
+}
+
+#right {
+    background: #fcc;
+    width: 200px;
+}
+
+#center {
+    width: 400px;
+    background: #cfc;
+
+}
+
+.container div {
+    display: inline-block;
+    font-size: 15px;
+    vertical-align: top;
+}
+
+.container {
+    font-size: 0;
+    min-width: 800px;
+}

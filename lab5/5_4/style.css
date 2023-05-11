@@ -1,0 +1,17 @@
+#left{
+	background:#ccf;
+    width: 200px;
+}
+#right{
+	background:#fcc;
+    width:200px;
+}
+#center{
+    width: 600px;
+	background:#cfc;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
