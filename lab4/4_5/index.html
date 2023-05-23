@@ -38,12 +38,24 @@
 			padding-left: 10px;
 		}
 
+		
 		.menu li:hover ul {
 			display: block;
 		}
 
 		.menu li li {
 			list-style-image: url(point.gif);
+		}
+		.menu ul li:hover:before {
+			content: "\f056";
+		}
+
+		.menu ul li:hover li {
+			display: block;
+		}
+
+		.menu li li:hover:before {
+			content: "\f192";
 		}
 	</style>
 </head>
