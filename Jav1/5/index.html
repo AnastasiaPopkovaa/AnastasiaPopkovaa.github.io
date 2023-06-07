@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+</head>
+<body>
+    <script>
+        "use strict";
+
+        let n = prompt("Введите количество строк: ");
+
+        const k = Math.floor(n / 5);
+        const l = n - 5 * k;
+        const one = "dog dog dog cat cat dog";
+        const two = "dog dog cat cat dog dog";
+        const three = "dog cat cat dog dog dog";
+        const four = "cat cat dog dog dog dog";
+        const five = "cat dog dog dog dog cat";
+        const list = [one, two, three, four, five]
+        for (let i = 1; i <= k; i++) {
+            for (let j = 0; j < 5; j++) console.log(list[j]);
+        }
+        for (let j = 0; j < l; j++) console.log(list[j]);
+    </script>
+</body>
+</html>
