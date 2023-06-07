@@ -16,17 +16,10 @@ strong {
 
 body {
     background-image: url("pattern.png");
-}
-
-em {
-    padding: 2px;
-    border-bottom: double;
-}
-
-body {
     text-align: center;
     background-size: cover;
 }
+
 
 #conteiner {
     width: 1300px;
