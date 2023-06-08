@@ -2,20 +2,24 @@
 <html lang="ru">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Задание 3 </title>
+    <title></title>
+    <style>
+        .menu li a:hover {
+            background-color: rgb(64, 0, 255);
+            transition: background-color 1s, transform 1.5s;
+        }
+    </style>
 </head>
 
 <body>
     <script>
-        "use strict";
-        let num = prompt("Введите число ", "");
+        'use strict';
+        let num;
         do {
-            num = prompt("Введите число большее 100", 0);
-        } while (num <= 100 && num);
-
+            num = prompt("Введите число больше 100:");
+        }
+        while ((Number(num) != num || num <= 100) && num);
+        alert("Это было трудно!!!")
     </script>
 </body>
 
