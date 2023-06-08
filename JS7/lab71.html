@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>select</title>
 </head>
 
 <body>
@@ -13,15 +13,21 @@
         <option value="Rock">Рок</option>
         <option value="Blues" selected>Блюз</option>
     </select>
+
     <script>
-        let option = music.options[music.selectedIndex];
-        console.log(option.value);
-        console.log(option.text);
+        // Вывести значение и текст текущей выбранной опции.
+        let selectedOption = music.options[music.selectedIndex];
+        console.log(music.options[music.selectedIndex]);
+        console.log(selectedOption.value);
+        console.log(selectedOption.text);
 
-        let newoption = new Option("Классика", "classic");
-        music.append(newoption);
+        // Добавьте опцию: <option value="Classic">Классика</option>.
+        let newOption = new Option("Классика", "Classic");
+        music.append(newOption);
 
-        newoption.selected = true;
+        // Сделайте её выбранной.
+        newOption.selected = true;
+
     </script>
 </body>
 
